@@ -1,0 +1,1458 @@
+{
+    "contractName": "KiralikEveDukkanSozlesmesi",
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "string",
+                    "name": "_kiralikYerTipi",
+                    "type": "string"
+                },
+                {
+                    "internalType": "address",
+                    "name": "_kiraci",
+                    "type": "address"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "_kiraBaslangicTarihi",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "_kiraBitisTarihi",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        },
+        {
+            "inputs": [],
+            "name": "hataliDurumBildir",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "kiraBaslangicTarihi",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "kiraBitisTarihi",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "kiraSonlandir",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "kiraci",
+            "outputs": [
+                {
+                    "internalType": "address",
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "kiralikDurum",
+            "outputs": [
+                {
+                    "internalType": "bool",
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "kiralikYerTipi",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "kirayaVer",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "sahip",
+            "outputs": [
+                {
+                    "internalType": "address",
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_kiralikYerTipi\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"_kiraci\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_kiraBaslangicTarihi\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_kiraBitisTarihi\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"hataliDurumBildir\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"kiraBaslangicTarihi\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"kiraBitisTarihi\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"kiraSonlandir\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"kiraci\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"kiralikDurum\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"kiralikYerTipi\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"kirayaVer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"sahip\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/altin/OneDrive/Masa\\u00fcst\\u00fc/ak\\u0131ll\\u0131 s\\u00f6zle\\u015fme/kiralikec.sol\":\"KiralikEveDukkanSozlesmesi\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/altin/OneDrive/Masa\\u00fcst\\u00fc/ak\\u0131ll\\u0131 s\\u00f6zle\\u015fme/kiralikec.sol\":{\"keccak256\":\"0x36006f2f38bde00baeb26f72ae6da4ecc3c5a5b148f729242b9a42a2b9255fbf\",\"urls\":[\"bzz-raw://9ece6ab99dbfe1937407e83906d97bcd1b6f7b4dc8bf4c2eca49733bb7f6cc54\",\"dweb:/ipfs/QmbcwGNFPtXviaMBh2BLHR7rRLUtrqhnhvgF5h1miqGWhP\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b5060405161070f38038061070f83398101604081905261002f916100ba565b600080546001600160a01b03191633179055600161004d858261022d565b50600280546001600160a01b0319166001600160a01b039490941693909317909255600355600455506005805460ff191660011790556102ec565b634e487b7160e01b600052604160045260246000fd5b80516001600160a01b03811681146100b557600080fd5b919050565b600080600080608085870312156100d057600080fd5b84516001600160401b03808211156100e757600080fd5b818701915087601f8301126100fb57600080fd5b81518181111561010d5761010d610088565b604051601f8201601f19908116603f0116810190838211818310171561013557610135610088565b81604052828152602093508a8484870101111561015157600080fd5b600091505b828210156101735784820184015181830185015290830190610156565b600084848301015280985050505061018c81880161009e565b60408801516060909801519699909850945050505050565b600181811c908216806101b857607f821691505b6020821081036101d857634e487b7160e01b600052602260045260246000fd5b50919050565b601f82111561022857600081815260208120601f850160051c810160208610156102055750805b601f850160051c820191505b8181101561022457828155600101610211565b5050505b505050565b81516001600160401b0381111561024657610246610088565b61025a8161025484546101a4565b846101de565b602080601f83116001811461028f57600084156102775750858301515b600019600386901b1c1916600185901b178555610224565b600085815260208120601f198616915b828110156102be5788860151825594840194600190910190840161029f565b50858210156102dc5787850151600019600388901b60f8161c191681555b5050505050600190811b01905550565b610414806102fb6000396000f3fe608060405234801561001057600080fd5b50600436106100935760003560e01c80638cb1ca19116100665780638cb1ca19146100fc578063b936ba9d14610104578063bf9f139514610121578063c02da08214610136578063c5232a231461013f57600080fd5b806319ea4324146100985780631f5e3969146100c85780636c3aab9e146100d25780638574cd14146100e9575b600080fd5b6002546100ab906001600160a01b031681565b6040516001600160a01b0390911681526020015b60405180910390f35b6100d0610147565b005b6100db60035481565b6040519081526020016100bf565b6000546100ab906001600160a01b031681565b6100d06101b9565b6005546101119060ff1681565b60405190151581526020016100bf565b610129610272565b6040516100bf9190610356565b6100db60045481565b6100d0610300565b6002546001600160a01b031633146101b75760405162461bcd60e51b815260206004820152602860248201527f536164656365206b697261636920686174616c6920647572756d2062696c64696044820152673932b134b634b91760c11b60648201526084015b60405180910390fd5b565b6000546001600160a01b0316331461020f5760405162461bcd60e51b815260206004820152601960248201527829b0b232b1b29039b0b434b81031b0b3b4b930b134b634b91760391b60448201526064016101ae565b60055460ff1615156001146102665760405162461bcd60e51b815260206004820152601b60248201527f4b69726120736f7a6c65736d65736920736f6e612065726d69732e000000000060448201526064016101ae565b6005805460ff19169055565b6001805461027f906103a4565b80601f01602080910402602001604051908101604052809291908181526020018280546102ab906103a4565b80156102f85780601f106102cd576101008083540402835291602001916102f8565b820191906000526020600020905b8154815290600101906020018083116102db57829003601f168201915b505050505081565b6000546001600160a01b031633146102665760405162461bcd60e51b815260206004820152601960248201527829b0b232b1b29039b0b434b81031b0b3b4b930b134b634b91760391b60448201526064016101ae565b600060208083528351808285015260005b8181101561038357858101830151858201604001528201610367565b506000604082860101526040601f19601f8301168501019250505092915050565b600181811c908216806103b857607f821691505b6020821081036103d857634e487b7160e01b600052602260045260246000fd5b5091905056fea26469706673582212208c19181dce117defbe775ef9fa562e5169a7de88611251379dc98bcf4f5491ee64736f6c63430008130033",
+    "deployedBytecode": "608060405234801561001057600080fd5b50600436106100935760003560e01c80638cb1ca19116100665780638cb1ca19146100fc578063b936ba9d14610104578063bf9f139514610121578063c02da08214610136578063c5232a231461013f57600080fd5b806319ea4324146100985780631f5e3969146100c85780636c3aab9e146100d25780638574cd14146100e9575b600080fd5b6002546100ab906001600160a01b031681565b6040516001600160a01b0390911681526020015b60405180910390f35b6100d0610147565b005b6100db60035481565b6040519081526020016100bf565b6000546100ab906001600160a01b031681565b6100d06101b9565b6005546101119060ff1681565b60405190151581526020016100bf565b610129610272565b6040516100bf9190610356565b6100db60045481565b6100d0610300565b6002546001600160a01b031633146101b75760405162461bcd60e51b815260206004820152602860248201527f536164656365206b697261636920686174616c6920647572756d2062696c64696044820152673932b134b634b91760c11b60648201526084015b60405180910390fd5b565b6000546001600160a01b0316331461020f5760405162461bcd60e51b815260206004820152601960248201527829b0b232b1b29039b0b434b81031b0b3b4b930b134b634b91760391b60448201526064016101ae565b60055460ff1615156001146102665760405162461bcd60e51b815260206004820152601b60248201527f4b69726120736f7a6c65736d65736920736f6e612065726d69732e000000000060448201526064016101ae565b6005805460ff19169055565b6001805461027f906103a4565b80601f01602080910402602001604051908101604052809291908181526020018280546102ab906103a4565b80156102f85780601f106102cd576101008083540402835291602001916102f8565b820191906000526020600020905b8154815290600101906020018083116102db57829003601f168201915b505050505081565b6000546001600160a01b031633146102665760405162461bcd60e51b815260206004820152601960248201527829b0b232b1b29039b0b434b81031b0b3b4b930b134b634b91760391b60448201526064016101ae565b600060208083528351808285015260005b8181101561038357858101830151858201604001528201610367565b506000604082860101526040601f19601f8301168501019250505092915050565b600181811c908216806103b857607f821691505b6020821081036103d857634e487b7160e01b600052602260045260246000fd5b5091905056fea26469706673582212208c19181dce117defbe775ef9fa562e5169a7de88611251379dc98bcf4f5491ee64736f6c63430008130033",
+    "sourceMap": "27:1294:0:-:0;;;275:351;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;402:5;:18;;-1:-1:-1;;;;;;402:18:0;410:10;402:18;;;;431:32;448:15;402:18;431:32;:::i;:::-;-1:-1:-1;474:6:0;:16;;-1:-1:-1;;;;;;474:16:0;-1:-1:-1;;;;;474:16:0;;;;;;;;;;;501:19;:42;554:15;:34;-1:-1:-1;599:12:0;:19;;-1:-1:-1;;599:19:0;-1:-1:-1;599:19:0;;;27:1294;;14:127:1;75:10;70:3;66:20;63:1;56:31;106:4;103:1;96:15;130:4;127:1;120:15;146:177;225:13;;-1:-1:-1;;;;;267:31:1;;257:42;;247:70;;313:1;310;303:12;247:70;146:177;;;:::o;328:1252::-;435:6;443;451;459;512:3;500:9;491:7;487:23;483:33;480:53;;;529:1;526;519:12;480:53;556:16;;-1:-1:-1;;;;;621:14:1;;;618:34;;;648:1;645;638:12;618:34;686:6;675:9;671:22;661:32;;731:7;724:4;720:2;716:13;712:27;702:55;;753:1;750;743:12;702:55;782:2;776:9;804:2;800;797:10;794:36;;;810:18;;:::i;:::-;885:2;879:9;853:2;939:13;;-1:-1:-1;;935:22:1;;;959:2;931:31;927:40;915:53;;;983:18;;;1003:22;;;980:46;977:72;;;1029:18;;:::i;:::-;1069:10;1065:2;1058:22;1104:2;1096:6;1089:18;1126:4;1116:14;;1167:7;1162:2;1157;1153;1149:11;1145:20;1142:33;1139:53;;;1188:1;1185;1178:12;1139:53;1210:1;1201:10;;1220:129;1234:2;1231:1;1228:9;1220:129;;;1322:10;;;1318:19;;1312:26;1291:14;;;1287:23;;1280:59;1245:10;;;;1220:129;;;1391:1;1386:2;1381;1373:6;1369:15;1365:24;1358:35;1412:6;1402:16;;;;;1437:49;1482:2;1471:9;1467:18;1437:49;:::i;:::-;1526:2;1511:18;;1505:25;1570:2;1555:18;;;1549:25;328:1252;;1427:59;;-1:-1:-1;328:1252:1;-1:-1:-1;;;;;328:1252:1:o;1585:380::-;1664:1;1660:12;;;;1707;;;1728:61;;1782:4;1774:6;1770:17;1760:27;;1728:61;1835:2;1827:6;1824:14;1804:18;1801:38;1798:161;;1881:10;1876:3;1872:20;1869:1;1862:31;1916:4;1913:1;1906:15;1944:4;1941:1;1934:15;1798:161;;1585:380;;;:::o;2096:545::-;2198:2;2193:3;2190:11;2187:448;;;2234:1;2259:5;2255:2;2248:17;2304:4;2300:2;2290:19;2374:2;2362:10;2358:19;2355:1;2351:27;2345:4;2341:38;2410:4;2398:10;2395:20;2392:47;;;-1:-1:-1;2433:4:1;2392:47;2488:2;2483:3;2479:12;2476:1;2472:20;2466:4;2462:31;2452:41;;2543:82;2561:2;2554:5;2551:13;2543:82;;;2606:17;;;2587:1;2576:13;2543:82;;;2547:3;;;2187:448;2096:545;;;:::o;2817:1352::-;2937:10;;-1:-1:-1;;;;;2959:30:1;;2956:56;;;2992:18;;:::i;:::-;3021:97;3111:6;3071:38;3103:4;3097:11;3071:38;:::i;:::-;3065:4;3021:97;:::i;:::-;3173:4;;3237:2;3226:14;;3254:1;3249:663;;;;3956:1;3973:6;3970:89;;;-1:-1:-1;4025:19:1;;;4019:26;3970:89;-1:-1:-1;;2774:1:1;2770:11;;;2766:24;2762:29;2752:40;2798:1;2794:11;;;2749:57;4072:81;;3219:944;;3249:663;2043:1;2036:14;;;2080:4;2067:18;;-1:-1:-1;;3285:20:1;;;3403:236;3417:7;3414:1;3411:14;3403:236;;;3506:19;;;3500:26;3485:42;;3598:27;;;;3566:1;3554:14;;;;3433:19;;3403:236;;;3407:3;3667:6;3658:7;3655:19;3652:201;;;3728:19;;;3722:26;-1:-1:-1;;3811:1:1;3807:14;;;3823:3;3803:24;3799:37;3795:42;3780:58;3765:74;;3652:201;-1:-1:-1;;;;;3899:1:1;3883:14;;;3879:22;3866:36;;-1:-1:-1;2817:1352:1:o;:::-;27:1294:0;;;;;;",
+    "deployedSourceMap": "27:1294:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;132:21;;;;;-1:-1:-1;;;;;132:21:0;;;;;;-1:-1:-1;;;;;178:32:1;;;160:51;;148:2;133:18;132:21:0;;;;;;;;1101:217;;;:::i;:::-;;160:34;;;;;;;;;368:25:1;;;356:2;341:18;160:34:0;222:177:1;70:20:0;;;;;-1:-1:-1;;;;;70:20:0;;;895:99;;;:::i;238:24::-;;;;;;;;;;;;569:14:1;;562:22;544:41;;532:2;517:18;238:24:0;404:187:1;97:28:0;;;:::i;:::-;;;;;;;:::i;201:30::-;;;;;;1006:83;;;:::i;1101:217::-;1170:6;;-1:-1:-1;;;;;1170:6:0;1156:10;:20;1148:73;;;;-1:-1:-1;;;1148:73:0;;1351:2:1;1148:73:0;;;1333:21:1;1390:2;1370:18;;;1363:30;1429:34;1409:18;;;1402:62;-1:-1:-1;;;1480:18:1;;;1473:38;1528:19;;1148:73:0;;;;;;;;;1101:217::o;895:99::-;694:5;;-1:-1:-1;;;;;694:5:0;680:10;:19;672:57;;;;-1:-1:-1;;;672:57:0;;1760:2:1;672:57:0;;;1742:21:1;1799:2;1779:18;;;1772:30;-1:-1:-1;;;1818:18:1;;;1811:55;1883:18;;672:57:0;1558:349:1;672:57:0;811:12:::1;::::0;::::1;;:20;;:12:::0;:20:::1;803:60;;;::::0;-1:-1:-1;;;803:60:0;;2114:2:1;803:60:0::1;::::0;::::1;2096:21:1::0;2153:2;2133:18;;;2126:30;2192:29;2172:18;;;2165:57;2239:18;;803:60:0::1;1912:351:1::0;803:60:0::1;966:12:::2;:20:::0;;-1:-1:-1;;966:20:0::2;::::0;;895:99::o;97:28::-;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;1006:83::-;694:5;;-1:-1:-1;;;;;694:5:0;680:10;:19;672:57;;;;-1:-1:-1;;;672:57:0;;1760:2:1;672:57:0;;;1742:21:1;1799:2;1779:18;;;1772:30;-1:-1:-1;;;1818:18:1;;;1811:55;1883:18;;672:57:0;1558:349:1;596:548;708:4;737:2;766;755:9;748:21;798:6;792:13;841:6;836:2;825:9;821:18;814:34;866:1;876:140;890:6;887:1;884:13;876:140;;;985:14;;;981:23;;975:30;951:17;;;970:2;947:26;940:66;905:10;;876:140;;;880:3;1065:1;1060:2;1051:6;1040:9;1036:22;1032:31;1025:42;1135:2;1128;1124:7;1119:2;1111:6;1107:15;1103:29;1092:9;1088:45;1084:54;1076:62;;;;596:548;;;;:::o;2268:380::-;2347:1;2343:12;;;;2390;;;2411:61;;2465:4;2457:6;2453:17;2443:27;;2411:61;2518:2;2510:6;2507:14;2487:18;2484:38;2481:161;;2564:10;2559:3;2555:20;2552:1;2545:31;2599:4;2596:1;2589:15;2627:4;2624:1;2617:15;2481:161;;2268:380;;;:::o",
+    "sourcePath": "c:/Users/altin/OneDrive/Masaüstü/akıllı sözleşme/kiralikec.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.19+commit.7dd6d404"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/altin/OneDrive/Masaüstü/akıllı sözleşme/kiralikec.sol",
+        "exportedSymbols": {
+            "KiralikEveDukkanSozlesmesi": [
+                108
+            ]
+        },
+        "id": 109,
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "0:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "KiralikEveDukkanSozlesmesi",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 108,
+                "linearizedBaseContracts": [
+                    108
+                ],
+                "name": "KiralikEveDukkanSozlesmesi",
+                "nameLocation": "36:26:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "8574cd14",
+                        "id": 3,
+                        "mutability": "mutable",
+                        "name": "sahip",
+                        "nameLocation": "85:5:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 108,
+                        "src": "70:20:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "70:7:0",
+                            "stateMutability": "nonpayable",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "constant": false,
+                        "functionSelector": "bf9f1395",
+                        "id": 5,
+                        "mutability": "mutable",
+                        "name": "kiralikYerTipi",
+                        "nameLocation": "111:14:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 108,
+                        "src": "97:28:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 4,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "97:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "constant": false,
+                        "functionSelector": "19ea4324",
+                        "id": 7,
+                        "mutability": "mutable",
+                        "name": "kiraci",
+                        "nameLocation": "147:6:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 108,
+                        "src": "132:21:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                        },
+                        "typeName": {
+                            "id": 6,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "132:7:0",
+                            "stateMutability": "nonpayable",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "constant": false,
+                        "functionSelector": "6c3aab9e",
+                        "id": 9,
+                        "mutability": "mutable",
+                        "name": "kiraBaslangicTarihi",
+                        "nameLocation": "175:19:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 108,
+                        "src": "160:34:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        },
+                        "typeName": {
+                            "id": 8,
+                            "name": "uint256",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "160:7:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "constant": false,
+                        "functionSelector": "c02da082",
+                        "id": 11,
+                        "mutability": "mutable",
+                        "name": "kiraBitisTarihi",
+                        "nameLocation": "216:15:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 108,
+                        "src": "201:30:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        },
+                        "typeName": {
+                            "id": 10,
+                            "name": "uint256",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "201:7:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "constant": false,
+                        "functionSelector": "b936ba9d",
+                        "id": 13,
+                        "mutability": "mutable",
+                        "name": "kiralikDurum",
+                        "nameLocation": "250:12:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 108,
+                        "src": "238:24:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                        },
+                        "typeName": {
+                            "id": 12,
+                            "name": "bool",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "238:4:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_bool",
+                                "typeString": "bool"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 49,
+                            "nodeType": "Block",
+                            "src": "391:235:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 27,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 24,
+                                            "name": "sahip",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 3,
+                                            "src": "402:5:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address",
+                                                "typeString": "address"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "expression": {
+                                                "id": 25,
+                                                "name": "msg",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 4294967281,
+                                                "src": "410:3:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_magic_message",
+                                                    "typeString": "msg"
+                                                }
+                                            },
+                                            "id": 26,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "memberLocation": "414:6:0",
+                                            "memberName": "sender",
+                                            "nodeType": "MemberAccess",
+                                            "src": "410:10:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address",
+                                                "typeString": "address"
+                                            }
+                                        },
+                                        "src": "402:18:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_address",
+                                            "typeString": "address"
+                                        }
+                                    },
+                                    "id": 28,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "402:18:0"
+                                },
+                                {
+                                    "expression": {
+                                        "id": 31,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 29,
+                                            "name": "kiralikYerTipi",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 5,
+                                            "src": "431:14:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_storage",
+                                                "typeString": "string storage ref"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "id": 30,
+                                            "name": "_kiralikYerTipi",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 15,
+                                            "src": "448:15:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string memory"
+                                            }
+                                        },
+                                        "src": "431:32:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage",
+                                            "typeString": "string storage ref"
+                                        }
+                                    },
+                                    "id": 32,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "431:32:0"
+                                },
+                                {
+                                    "expression": {
+                                        "id": 35,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 33,
+                                            "name": "kiraci",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 7,
+                                            "src": "474:6:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address",
+                                                "typeString": "address"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "id": 34,
+                                            "name": "_kiraci",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 17,
+                                            "src": "483:7:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address",
+                                                "typeString": "address"
+                                            }
+                                        },
+                                        "src": "474:16:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_address",
+                                            "typeString": "address"
+                                        }
+                                    },
+                                    "id": 36,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "474:16:0"
+                                },
+                                {
+                                    "expression": {
+                                        "id": 39,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 37,
+                                            "name": "kiraBaslangicTarihi",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 9,
+                                            "src": "501:19:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "id": 38,
+                                            "name": "_kiraBaslangicTarihi",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 19,
+                                            "src": "523:20:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "src": "501:42:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "id": 40,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "501:42:0"
+                                },
+                                {
+                                    "expression": {
+                                        "id": 43,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 41,
+                                            "name": "kiraBitisTarihi",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 11,
+                                            "src": "554:15:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "id": 42,
+                                            "name": "_kiraBitisTarihi",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 21,
+                                            "src": "572:16:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "src": "554:34:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "id": 44,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "554:34:0"
+                                },
+                                {
+                                    "expression": {
+                                        "id": 47,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 45,
+                                            "name": "kiralikDurum",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 13,
+                                            "src": "599:12:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_bool",
+                                                "typeString": "bool"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "hexValue": "74727565",
+                                            "id": 46,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": true,
+                                            "kind": "bool",
+                                            "lValueRequested": false,
+                                            "nodeType": "Literal",
+                                            "src": "614:4:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_bool",
+                                                "typeString": "bool"
+                                            },
+                                            "value": "true"
+                                        },
+                                        "src": "599:19:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_bool",
+                                            "typeString": "bool"
+                                        }
+                                    },
+                                    "id": 48,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "599:19:0"
+                                }
+                            ]
+                        },
+                        "id": 50,
+                        "implemented": true,
+                        "kind": "constructor",
+                        "modifiers": [],
+                        "name": "",
+                        "nameLocation": "-1:-1:-1",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 22,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 15,
+                                    "mutability": "mutable",
+                                    "name": "_kiralikYerTipi",
+                                    "nameLocation": "301:15:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 50,
+                                    "src": "287:29:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 14,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "287:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                },
+                                {
+                                    "constant": false,
+                                    "id": 17,
+                                    "mutability": "mutable",
+                                    "name": "_kiraci",
+                                    "nameLocation": "326:7:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 50,
+                                    "src": "318:15:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_address",
+                                        "typeString": "address"
+                                    },
+                                    "typeName": {
+                                        "id": 16,
+                                        "name": "address",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "318:7:0",
+                                        "stateMutability": "nonpayable",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_address",
+                                            "typeString": "address"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                },
+                                {
+                                    "constant": false,
+                                    "id": 19,
+                                    "mutability": "mutable",
+                                    "name": "_kiraBaslangicTarihi",
+                                    "nameLocation": "343:20:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 50,
+                                    "src": "335:28:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 18,
+                                        "name": "uint256",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "335:7:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                },
+                                {
+                                    "constant": false,
+                                    "id": 21,
+                                    "mutability": "mutable",
+                                    "name": "_kiraBitisTarihi",
+                                    "nameLocation": "373:16:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 50,
+                                    "src": "365:24:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 20,
+                                        "name": "uint256",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "365:7:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "286:104:0"
+                        },
+                        "returnParameters": {
+                            "id": 23,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "391:0:0"
+                        },
+                        "scope": 108,
+                        "src": "275:351:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 61,
+                            "nodeType": "Block",
+                            "src": "661:88:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "arguments": [
+                                            {
+                                                "commonType": {
+                                                    "typeIdentifier": "t_address",
+                                                    "typeString": "address"
+                                                },
+                                                "id": 56,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftExpression": {
+                                                    "expression": {
+                                                        "id": 53,
+                                                        "name": "msg",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": 4294967281,
+                                                        "src": "680:3:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_magic_message",
+                                                            "typeString": "msg"
+                                                        }
+                                                    },
+                                                    "id": 54,
+                                                    "isConstant": false,
+                                                    "isLValue": false,
+                                                    "isPure": false,
+                                                    "lValueRequested": false,
+                                                    "memberLocation": "684:6:0",
+                                                    "memberName": "sender",
+                                                    "nodeType": "MemberAccess",
+                                                    "src": "680:10:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_address",
+                                                        "typeString": "address"
+                                                    }
+                                                },
+                                                "nodeType": "BinaryOperation",
+                                                "operator": "==",
+                                                "rightExpression": {
+                                                    "id": 55,
+                                                    "name": "sahip",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 3,
+                                                    "src": "694:5:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_address",
+                                                        "typeString": "address"
+                                                    }
+                                                },
+                                                "src": "680:19:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_bool",
+                                                    "typeString": "bool"
+                                                }
+                                            },
+                                            {
+                                                "hexValue": "5361646563652073616869702063616769726162696c69722e",
+                                                "id": 57,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "string",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "701:27:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_stringliteral_598fc050bf3fb87131413ac56422a67ca271b1d0bc4e2225ce9c85f40e508c56",
+                                                    "typeString": "literal_string \"Sadece sahip cagirabilir.\""
+                                                },
+                                                "value": "Sadece sahip cagirabilir."
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_bool",
+                                                    "typeString": "bool"
+                                                },
+                                                {
+                                                    "typeIdentifier": "t_stringliteral_598fc050bf3fb87131413ac56422a67ca271b1d0bc4e2225ce9c85f40e508c56",
+                                                    "typeString": "literal_string \"Sadece sahip cagirabilir.\""
+                                                }
+                                            ],
+                                            "id": 52,
+                                            "name": "require",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [
+                                                4294967278,
+                                                4294967278
+                                            ],
+                                            "referencedDeclaration": 4294967278,
+                                            "src": "672:7:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                                                "typeString": "function (bool,string memory) pure"
+                                            }
+                                        },
+                                        "id": 58,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "nameLocations": [],
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "672:57:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 59,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "672:57:0"
+                                },
+                                {
+                                    "id": 60,
+                                    "nodeType": "PlaceholderStatement",
+                                    "src": "740:1:0"
+                                }
+                            ]
+                        },
+                        "id": 62,
+                        "name": "sadeceSahip",
+                        "nameLocation": "647:11:0",
+                        "nodeType": "ModifierDefinition",
+                        "parameters": {
+                            "id": 51,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "658:2:0"
+                        },
+                        "src": "638:111:0",
+                        "virtual": false,
+                        "visibility": "internal"
+                    },
+                    {
+                        "body": {
+                            "id": 72,
+                            "nodeType": "Block",
+                            "src": "792:91:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "arguments": [
+                                            {
+                                                "commonType": {
+                                                    "typeIdentifier": "t_bool",
+                                                    "typeString": "bool"
+                                                },
+                                                "id": 67,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftExpression": {
+                                                    "id": 65,
+                                                    "name": "kiralikDurum",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 13,
+                                                    "src": "811:12:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_bool",
+                                                        "typeString": "bool"
+                                                    }
+                                                },
+                                                "nodeType": "BinaryOperation",
+                                                "operator": "==",
+                                                "rightExpression": {
+                                                    "hexValue": "74727565",
+                                                    "id": 66,
+                                                    "isConstant": false,
+                                                    "isLValue": false,
+                                                    "isPure": true,
+                                                    "kind": "bool",
+                                                    "lValueRequested": false,
+                                                    "nodeType": "Literal",
+                                                    "src": "827:4:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_bool",
+                                                        "typeString": "bool"
+                                                    },
+                                                    "value": "true"
+                                                },
+                                                "src": "811:20:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_bool",
+                                                    "typeString": "bool"
+                                                }
+                                            },
+                                            {
+                                                "hexValue": "4b69726120736f7a6c65736d65736920736f6e612065726d69732e",
+                                                "id": 68,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "string",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "833:29:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_stringliteral_45e61bcc434bc3be431882a92170873cb403a9b87f1171e40abb939df80760cb",
+                                                    "typeString": "literal_string \"Kira sozlesmesi sona ermis.\""
+                                                },
+                                                "value": "Kira sozlesmesi sona ermis."
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_bool",
+                                                    "typeString": "bool"
+                                                },
+                                                {
+                                                    "typeIdentifier": "t_stringliteral_45e61bcc434bc3be431882a92170873cb403a9b87f1171e40abb939df80760cb",
+                                                    "typeString": "literal_string \"Kira sozlesmesi sona ermis.\""
+                                                }
+                                            ],
+                                            "id": 64,
+                                            "name": "require",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [
+                                                4294967278,
+                                                4294967278
+                                            ],
+                                            "referencedDeclaration": 4294967278,
+                                            "src": "803:7:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                                                "typeString": "function (bool,string memory) pure"
+                                            }
+                                        },
+                                        "id": 69,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "nameLocations": [],
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "803:60:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 70,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "803:60:0"
+                                },
+                                {
+                                    "id": 71,
+                                    "nodeType": "PlaceholderStatement",
+                                    "src": "874:1:0"
+                                }
+                            ]
+                        },
+                        "id": 73,
+                        "name": "kiralikDurumKontrol",
+                        "nameLocation": "770:19:0",
+                        "nodeType": "ModifierDefinition",
+                        "parameters": {
+                            "id": 63,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "789:2:0"
+                        },
+                        "src": "761:122:0",
+                        "virtual": false,
+                        "visibility": "internal"
+                    },
+                    {
+                        "body": {
+                            "id": 84,
+                            "nodeType": "Block",
+                            "src": "955:39:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 82,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 80,
+                                            "name": "kiralikDurum",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 13,
+                                            "src": "966:12:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_bool",
+                                                "typeString": "bool"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "hexValue": "66616c7365",
+                                            "id": 81,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": true,
+                                            "kind": "bool",
+                                            "lValueRequested": false,
+                                            "nodeType": "Literal",
+                                            "src": "981:5:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_bool",
+                                                "typeString": "bool"
+                                            },
+                                            "value": "false"
+                                        },
+                                        "src": "966:20:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_bool",
+                                            "typeString": "bool"
+                                        }
+                                    },
+                                    "id": 83,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "966:20:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "8cb1ca19",
+                        "id": 85,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [
+                            {
+                                "id": 76,
+                                "kind": "modifierInvocation",
+                                "modifierName": {
+                                    "id": 75,
+                                    "name": "sadeceSahip",
+                                    "nameLocations": [
+                                        "923:11:0"
+                                    ],
+                                    "nodeType": "IdentifierPath",
+                                    "referencedDeclaration": 62,
+                                    "src": "923:11:0"
+                                },
+                                "nodeType": "ModifierInvocation",
+                                "src": "923:11:0"
+                            },
+                            {
+                                "id": 78,
+                                "kind": "modifierInvocation",
+                                "modifierName": {
+                                    "id": 77,
+                                    "name": "kiralikDurumKontrol",
+                                    "nameLocations": [
+                                        "935:19:0"
+                                    ],
+                                    "nodeType": "IdentifierPath",
+                                    "referencedDeclaration": 73,
+                                    "src": "935:19:0"
+                                },
+                                "nodeType": "ModifierInvocation",
+                                "src": "935:19:0"
+                            }
+                        ],
+                        "name": "kirayaVer",
+                        "nameLocation": "904:9:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 74,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "913:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 79,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "955:0:0"
+                        },
+                        "scope": 108,
+                        "src": "895:99:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 94,
+                            "nodeType": "Block",
+                            "src": "1050:39:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 92,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 90,
+                                            "name": "kiralikDurum",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 13,
+                                            "src": "1061:12:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_bool",
+                                                "typeString": "bool"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "hexValue": "66616c7365",
+                                            "id": 91,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": true,
+                                            "kind": "bool",
+                                            "lValueRequested": false,
+                                            "nodeType": "Literal",
+                                            "src": "1076:5:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_bool",
+                                                "typeString": "bool"
+                                            },
+                                            "value": "false"
+                                        },
+                                        "src": "1061:20:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_bool",
+                                            "typeString": "bool"
+                                        }
+                                    },
+                                    "id": 93,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "1061:20:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "c5232a23",
+                        "id": 95,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [
+                            {
+                                "id": 88,
+                                "kind": "modifierInvocation",
+                                "modifierName": {
+                                    "id": 87,
+                                    "name": "sadeceSahip",
+                                    "nameLocations": [
+                                        "1038:11:0"
+                                    ],
+                                    "nodeType": "IdentifierPath",
+                                    "referencedDeclaration": 62,
+                                    "src": "1038:11:0"
+                                },
+                                "nodeType": "ModifierInvocation",
+                                "src": "1038:11:0"
+                            }
+                        ],
+                        "name": "kiraSonlandir",
+                        "nameLocation": "1015:13:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 86,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "1028:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 89,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "1050:0:0"
+                        },
+                        "scope": 108,
+                        "src": "1006:83:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 106,
+                            "nodeType": "Block",
+                            "src": "1137:181:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "arguments": [
+                                            {
+                                                "commonType": {
+                                                    "typeIdentifier": "t_address",
+                                                    "typeString": "address"
+                                                },
+                                                "id": 102,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftExpression": {
+                                                    "expression": {
+                                                        "id": 99,
+                                                        "name": "msg",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": 4294967281,
+                                                        "src": "1156:3:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_magic_message",
+                                                            "typeString": "msg"
+                                                        }
+                                                    },
+                                                    "id": 100,
+                                                    "isConstant": false,
+                                                    "isLValue": false,
+                                                    "isPure": false,
+                                                    "lValueRequested": false,
+                                                    "memberLocation": "1160:6:0",
+                                                    "memberName": "sender",
+                                                    "nodeType": "MemberAccess",
+                                                    "src": "1156:10:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_address",
+                                                        "typeString": "address"
+                                                    }
+                                                },
+                                                "nodeType": "BinaryOperation",
+                                                "operator": "==",
+                                                "rightExpression": {
+                                                    "id": 101,
+                                                    "name": "kiraci",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 7,
+                                                    "src": "1170:6:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_address",
+                                                        "typeString": "address"
+                                                    }
+                                                },
+                                                "src": "1156:20:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_bool",
+                                                    "typeString": "bool"
+                                                }
+                                            },
+                                            {
+                                                "hexValue": "536164656365206b697261636920686174616c6920647572756d2062696c6469726562696c69722e",
+                                                "id": 103,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "string",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "1178:42:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_stringliteral_a00205323e3c253a89cc01b2e68948e65b1b7c0368463719d2da0d796f413e8d",
+                                                    "typeString": "literal_string \"Sadece kiraci hatali durum bildirebilir.\""
+                                                },
+                                                "value": "Sadece kiraci hatali durum bildirebilir."
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_bool",
+                                                    "typeString": "bool"
+                                                },
+                                                {
+                                                    "typeIdentifier": "t_stringliteral_a00205323e3c253a89cc01b2e68948e65b1b7c0368463719d2da0d796f413e8d",
+                                                    "typeString": "literal_string \"Sadece kiraci hatali durum bildirebilir.\""
+                                                }
+                                            ],
+                                            "id": 98,
+                                            "name": "require",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [
+                                                4294967278,
+                                                4294967278
+                                            ],
+                                            "referencedDeclaration": 4294967278,
+                                            "src": "1148:7:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                                                "typeString": "function (bool,string memory) pure"
+                                            }
+                                        },
+                                        "id": 104,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "nameLocations": [],
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "1148:73:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 105,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "1148:73:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "1f5e3969",
+                        "id": 107,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "hataliDurumBildir",
+                        "nameLocation": "1110:17:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 96,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "1127:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 97,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "1137:0:0"
+                        },
+                        "scope": 108,
+                        "src": "1101:217:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 109,
+                "src": "27:1294:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "0:1323:0"
+    },
+    "functionHashes": {
+        "hataliDurumBildir()": "1f5e3969",
+        "kiraBaslangicTarihi()": "6c3aab9e",
+        "kiraBitisTarihi()": "c02da082",
+        "kiraSonlandir()": "c5232a23",
+        "kiraci()": "19ea4324",
+        "kiralikDurum()": "b936ba9d",
+        "kiralikYerTipi()": "bf9f1395",
+        "kirayaVer()": "8cb1ca19",
+        "sahip()": "8574cd14"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "208800",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "hataliDurumBildir()": "2427",
+            "kiraBaslangicTarihi()": "2340",
+            "kiraBitisTarihi()": "2361",
+            "kiraSonlandir()": "26590",
+            "kiraci()": "2327",
+            "kiralikDurum()": "2332",
+            "kiralikYerTipi()": "infinite",
+            "kirayaVer()": "28637",
+            "sahip()": "2393"
+        }
+    }
+}
